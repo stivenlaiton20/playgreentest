@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
+  apiKey: "AIzaSyBuAIjfkTcDo8-T1yb8Ib6BQmlNVZrrcUI",
+  authDomain: "playgreentest.firebaseapp.com",
+  projectId: "playgreentest",
+  storageBucket: 'playgreentest.appspot.com',
+  messagingSenderId: '419126213653',
+  appId: '1:419126213653:web:15f50c649f8e958318221c',
 }
 
 const app = initializeApp(firebaseConfig)
